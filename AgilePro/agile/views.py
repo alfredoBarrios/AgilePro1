@@ -5,9 +5,6 @@ from django.core.urlresolvers import reverse
 from django.contrib.auth.decorators import login_required
 
 
-
-
-
 def myLogin(request, *args, **kwargs):
     """
     Establece el tiempo de vida de la sesion.
